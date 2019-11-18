@@ -1,7 +1,7 @@
-# friday
+# rbac权限管理系统
 
 #### 介绍
-基于Spring Boot2.X的后台权限管理系统，适合于学习Spring Boot开发、项目毕业设计以及研发团队快速搭建项目，提供纯净的权限管理功能，可作为开发项目的脚手架，作为基础项目。
+基于Spring Boot后台权限管理系统，
 
 #### 软件技术
 1. Spring Boot 2.1.4
@@ -27,26 +27,12 @@
 7. 修改密码；
 8. 代码自动生成：根据数据表以及自定义模板自动生成html、controller、service、serviceImpl、dao、mapper.xml文件；
 
-#### 安装教程
+#### 界面展示
 
-1. 克隆源代码并使用Intelij IDEA导入项目代码；
-2. Intelij IDEA中安装Lombok插件，参考：https://jingyan.baidu.com/article/0a52e3f4e53ca1bf63ed725c.html
-3. 将'/resources'目录下的'friday.sql'导入MySQL数据库；
-4. 修改'/resources'目录下的'application.yml'文件中的数据源配置，改为你自己的MySQL环境:
+登录界面  
+![image](https://github.com/yidaq/rbac/blob/master/image/%E7%99%BB%E5%BD%95.png)
+  
+主界面  
+![image](https://github.com/yidaq/rbac/blob/master/image/%E4%B8%BB%E9%A1%B5.png)
 
-```
-url: jdbc:mysql://localhost:3306/sxb-base?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=UTC
-
-username: root
-
-password: my-secret-pw
-```
-
-5. 启动项目，访问"http://localhost:8080",输入admin/admin即可登陆成功。
-
-#### 项目学习
-
-1. 本项目配有成套开发视频供参考 [http://www.sxbang.net/projects/128](http://www.sxbang.net/projects/128)
-
-#### 如有帮助，请随手点击右上角的star，非常感谢。
 
